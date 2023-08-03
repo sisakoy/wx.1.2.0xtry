@@ -169,7 +169,6 @@ def get_all_versions():
                                     'aria': aria2.client.get_version()['version'],
                                     'aiohttp': get_distribution('aiohttp').version,
                                     'gapi': get_distribution('google-api-python-client').version,
-                                    'mega': MegaApi('test').getVersion(),
                                     'qbit': get_client().app.version,
                                     'pyro': get_distribution('pyrogram').version,
                                     'ytdlp': get_distribution('yt-dlp').version}
